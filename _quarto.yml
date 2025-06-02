@@ -13,17 +13,19 @@ website:
       - about.qmd
       - portfolio.qmd
       - cv.qmd
-      - icon: envelope-fill
-        href: mailto:hdezagjr@gmail.com
-      - icon: github
+
+      - text: <i class="bi bi-linkedin"></i>
+        href: https://www.linkedin.com/in/jrhaguilar/
+      - text: <i class="bi bi-github"></i>
         href: https://github.com/JRamonHA
   page-footer:
     left: |
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+    center: |
       <i class="bi bi-c-circle"></i>
-      José Ramón Hernández Aguilar, 2025 <br>
-      All content licensed under ([CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/))
+      2025, José Ramón Hernández Aguilar
     right: |
-      Made with [Quarto](https://quarto.org/)
+      Made with [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org)
 
 format:
   html:
@@ -33,3 +35,5 @@ format:
     css: css/styles.css 
     metadata:
       pagetitle: "JRHA"
+
+lightbox: auto
