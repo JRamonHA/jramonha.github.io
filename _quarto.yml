@@ -30,9 +30,9 @@ website:
 format:
   html:
     theme: 
-    - theme.scss 
+    - theme.scss
+    css: css/styles.css  
     mainfont: Raleway
-    css: css/styles.css 
     metadata:
       pagetitle: "JRHA"
 
