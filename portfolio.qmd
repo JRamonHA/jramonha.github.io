@@ -1,5 +1,5 @@
 ---
-title: "Work"
+title: "Portfolio"
 ---
 
 This is a Quarto website.

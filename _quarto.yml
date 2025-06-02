@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - work.qmd
+      - portfolio.qmd
       - cv.qmd
       - icon: envelope-fill
         href: mailto:hdezagjr@gmail.com
