@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  favicon: images/logo.png
+  site-url: "https://jramonha.github.io"
+  title: "JRHA"
+  navbar:
+     right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - work.qmd
+      - cv.qmd
+      - icon: envelope-fill
+        href: mailto:hdezagjr@gmail.com
+      - icon: github
+        href: https://github.com/JRamonHA
+  page-footer:
+    left: |
+      # <i class="bi bi-c-circle"></i>
+      José Ramón Hernández Aguilar, 2025 <br>
+      All content licensed under [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+    right: |
+      Made with [Quarto](https://quarto.org/)
+
+format:
+  html:
+    theme: 
+    - theme.scss 
+    mainfont: Raleway
+    css: css/styles.css 
+    metadata:
+      pagetitle: "JRHA"
