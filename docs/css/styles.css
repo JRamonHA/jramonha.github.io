@@ -185,6 +185,12 @@ a.nav-link:hover:after {
   background-color: white !important;
 }
 
+@media (max-width: 991.98px) {
+  .navbar .container-fluid {
+    justify-content: flex-start !important;
+  }
+}
+
 p > a:hover {
   color: var(--accent-colour);
   text-decoration: none;
