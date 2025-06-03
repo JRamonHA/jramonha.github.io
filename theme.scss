@@ -122,23 +122,38 @@ $transition-collapse-width:   width .35s ease;
   }
 }
 
-div.quarto-about-solana .about-entity .about-link {
+div.quarto-about-trestles .about-entity .about-link {
   font-size: 1.5em;
   border-style: none;
   transition: all .35s ease;
 }
 
-div.quarto-about-solana .about-entity .about-link:hover {
+div.quarto-about-trestles .about-entity .about-link:hover {
   transform: scale(1.25);
   color: var(--accent-colour);
 }
 
-div.quarto-about-solana .about-entity .about-links {
+div.quarto-about-trestles .about-entity .about-links {
   column-gap: 0;
 }
 
+div.quarto-about-trestles .about-content {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles .about-entity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 2.5rem;
+  }
+}
+
 @media(max-width: 991.98px) {
-  div.quarto-about-solana .about-entity .about-links {
+  div.quarto-about-trestles .about-entity .about-links {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;

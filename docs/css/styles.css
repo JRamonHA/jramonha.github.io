@@ -191,6 +191,22 @@ a.nav-link:hover:after {
   }
 }
 
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: absolute;    
+    top: 100%;             
+    left: 0;               
+    width: 100vw;          
+    padding-left: 0;       
+    padding-right: 0;
+    margin: 0;            
+  }
+
+  .navbar-collapse.collapse.show {
+    background-color: white;
+  }
+}
+
 p > a:hover {
   color: var(--accent-colour);
   text-decoration: none;
