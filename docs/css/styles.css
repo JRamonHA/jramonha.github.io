@@ -310,3 +310,12 @@ div.embed-container embed {
   background-color: var(--background-blue);
   text-align: center;
 }
+
+.listing-title {
+  color: var(--text-colour);
+  transition: color .3s ease;
+}
+.listing-title:hover {
+  color: var(--accent-colour);
+  text-decoration: none;
+}

@@ -1,0 +1,29 @@
+
+- category: My work
+  description: |
+    Take a look at the projects I have worked on...
+  tiles:
+    - title: DTHIS-C
+      href: https://jramonha.github.io/DTHIS-C/
+      code: https://github.com/JRamonHA/DTHIS-C
+      thumbnail: media/dthis-c.png
+    - title: Grados-Hora
+      href: https://jramonha-grados-hora.share.connect.posit.cloud/
+      code: https://github.com/JRamonHA/grados-hora
+      thumbnail: media/grados-hora.png
+    - title: X-Dashboard
+      href: https://jramonha.github.io/X-Dashboard/
+      code: https://github.com/JRamonHA/X-Dashboard
+      thumbnail: media/puntos-carga.png
+    - title: Explorador CONAGUA
+      href: https://jramonha.github.io/App-Conagua/
+      code: https://github.com/JRamonHA/App-Conagua
+      thumbnail: media/conagua.png  
+    - title: Explorador Esolmet
+      href: https://jramonha.shinyapps.io/explorador-esolmet/
+      code:  https://github.com/JRamonHA/App-JRHA
+      thumbnail: media/esolmet.png
+    - title: Eolica IER-UNAM
+      href: https://main--eolicaierunam.netlify.app/
+      code: https://github.com/JRamonHA/eolicaier-unam
+      thumbnail: media/eolica.png
