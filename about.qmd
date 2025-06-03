@@ -2,4 +2,10 @@
 title: "About"
 ---
 
-About this site
+I consider myself a calm and passionate person, with a touch of creativity and a deep love for sports and nature. My interests include running and hiking, as well as programming and learning languages. I’m fluent in English, Spanish is my native tongue, and I’m currently perfecting my Italian (along with mastering authentic Italian cooking). Next on my list is German. I enjoy discovering new things and am always striving to improve.
+
+I studied Renewable Energy Engineering driven by my passion for technology, curiosity, and concern for the environment. As an engineer, I aim to contribute my part to the energy transition and help build a more sustainable future.
+
+From August 2023 to January 2024, I participated in an international exchange in Denmark, where I took courses in Business Administration and Corporate Strategy. That experience not only gave me valuable management and strategy knowledge but also taught me new ways to connect and adapt to an environment very different from Mexico. Working in multidisciplinary, multicultural teams and forming lasting friendships enriched my personal and professional perspective.
+
+My love for data analysis began in university, during courses on wind energy, solar power, and bioclimatic design, where I worked with time-series data to make project decisions. When I discovered Python, it became my go-to tool for this field. Since then, I’ve built on that foundation with certifications and personal projects (many of which I pursued simply for fun) while also contributing to academic initiatives. I look forward to using my data analysis skills and continuing to learn and grow every day.
