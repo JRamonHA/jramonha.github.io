@@ -3,9 +3,9 @@ project:
   output-dir: docs
   
 website:
+  title: "JRHA"
   favicon: media/logo.png
   site-url: "https://jramonha.github.io"
-  title: "JRHA"
   search: false
   navbar:
      right:

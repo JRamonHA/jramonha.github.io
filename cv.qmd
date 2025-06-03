@@ -8,8 +8,12 @@ format:
 
 Welcome to my curriculum vitae page. Here, you can view and download my CV, which summarizes my professional experience, education and skills. If you have any questions or would like to discuss potential collaborations or opportunities, please do not hesitate to reach out to me.
 
-<div class="embed-container">
-  <p align="center">
-    <iframe src="media/curriculum-vitae.pdf" width="100%" height="800px" style="border: 1px solid #ccc;"></iframe>
-  </p>
+<div style="max-width: 1000px; margin: auto; padding: 1em;">
+  <img src="media/curriculum-vitae.svg" alt="Curriculum Vitae" style="width: 100%; height: auto; border: 1px solid #ccc;" />
 </div>
+
+<p style="text-align: center; margin-top: 1.5em;">
+  <a href="media/curriculum-vitae.pdf" download class="cv-download-link">
+    <i class="bi bi-file-earmark-arrow-down-fill" style="margin-right: 6px;"></i>Download
+  </a>
+</p>

@@ -330,11 +330,21 @@ div.embed-container embed {
   padding-right: 3rem;
 }
 
+#gallery-carousel .carousel-inner {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
 #gallery-carousel .carousel-item img {
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
   object-fit: cover;
+}
+
+#gallery-carousel .carousel-item {
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 #gallery-carousel .carousel-control-prev,
@@ -369,4 +379,19 @@ div.embed-container embed {
     height: 6px;
     margin: 0 4px;
   }
+}
+
+.cv-download-link {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 1.1em;
+  color: var(--main-font);
+  position: relative;
+  text-decoration: 0;
+  transition: color 0.8s ease;
+}
+
+.cv-download-link:hover {
+  color: var(--accent-colour);
+  text-decoration: 0;
 }
