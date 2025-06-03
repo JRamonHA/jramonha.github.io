@@ -2,6 +2,8 @@
 title: "Portfolio"
 format:
   html:
+    grid:
+      body-width: 1800px
     toc: false
 execute:
   echo: false

@@ -28,7 +28,7 @@ In today’s complex world, where data is abundant, data analytics creates bridg
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-5 style="text-align: left;"}
+::: {.g-col-12 .g-col-md-5}
 ## Education
 
 - **Renewable Energy Engineering, 2024**  
@@ -38,7 +38,7 @@ In today’s complex world, where data is abundant, data analytics creates bridg
   *Roskilde Universitet, Denmark*
 :::
 
-::: {.g-col-12 .g-col-md-7 style="text-align: left;"}
+::: {.g-col-12 .g-col-md-7}
 ## Experience
 
 - **Data analyst and web app developer, 2025**  

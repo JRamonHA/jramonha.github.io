@@ -1,5 +1,9 @@
 ---
 title: "CV"
+format:
+  html:
+    grid:
+      body-width: 1800px
 ---
 
 Welcome to my curriculum vitae page. Here, you can view and download my CV, which summarizes my professional experience, education and skills. If you have any questions or would like to discuss potential collaborations or opportunities, please do not hesitate to reach out to me.

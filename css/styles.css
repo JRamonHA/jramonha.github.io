@@ -319,3 +319,54 @@ div.embed-container embed {
   color: var(--accent-colour);
   text-decoration: none;
 }
+
+#gallery-carousel {
+  position: relative;
+  display: inline-block;
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#gallery-carousel .carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+#gallery-carousel .carousel-control-prev,
+#gallery-carousel .carousel-control-next {
+  width: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#gallery-carousel .carousel-control-prev {
+  left: 0;
+}
+
+#gallery-carousel .carousel-control-next {
+  right: 0;
+}
+
+#gallery-carousel .carousel-control-prev-icon,
+#gallery-carousel .carousel-control-next-icon {
+  background-size: 1.5rem 1.5rem;
+}
+
+#gallery-carousel .carousel-indicators {
+  position: static;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  #gallery-carousel .carousel-indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+  }
+}
