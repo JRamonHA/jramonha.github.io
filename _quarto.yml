@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  favicon: images/logo.png
+  favicon: media/logo.png
   site-url: "https://jramonha.github.io"
   title: "JRHA"
   search: false
@@ -14,8 +14,6 @@ website:
       - about.qmd
       - portfolio.qmd
       - cv.qmd
-      - text: <i class="bi bi-envelope-fill"></i>
-        href: mailto:hdezagjr@gmail.com 
       - text: <i class="bi bi-linkedin"></i>
         href: https://www.linkedin.com/in/jrhaguilar/
       - text: <i class="bi bi-github"></i>
