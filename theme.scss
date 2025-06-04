@@ -143,17 +143,25 @@ div.quarto-about-trestles .about-content {
 }
 
 @media (max-width: 991.98px) {
+  div.quarto-about-trestles .about-entity,
+  div.quarto-about-trestles .about-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;  
+  }
+}
+
+@media (max-width: 991.98px) {
   div.quarto-about-trestles .about-entity {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-  }
-
-  div.quarto-about-trestles .about-entity img {
-    display: block;
-    margin: 0 auto;
   }
 
   div.quarto-about-trestles .about-entity h1,
