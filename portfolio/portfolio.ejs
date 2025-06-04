@@ -3,7 +3,9 @@
 
 <% for (const item of items) { %>
 
-<h2><%- item.category %></h2>
+<% if (item.category) { %>
+  <h2><%- item.category %></h2>
+<% } %>
 
 <p><%- item.description %></p>
 
