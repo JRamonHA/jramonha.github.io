@@ -6,6 +6,7 @@ website:
   title: "JRHA"
   favicon: media/logo.png
   site-url: "https://jramonha.github.io"
+  description: "Personal website for Jose Ramon Hernandez Aguilar"
   search: false
   navbar:
      right:
@@ -26,6 +27,12 @@ website:
       2025, José Ramón Hernández Aguilar
     right: |
       Made with [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org)
+  twitter-card:
+    image: "media/preview.png"
+    card-style: "summary_large_image"
+    creator: "@JRamon_HA"
+    site: "@JRamon_HA"
+  open-graph: true
 
 format:
   html:
@@ -36,4 +43,4 @@ format:
     metadata:
       pagetitle: "JRHA"
 
-lightbox: auto
+lightbox: true
