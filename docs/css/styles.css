@@ -323,7 +323,7 @@ div.embed-container embed {
 #gallery-carousel {
   position: relative;
   display: inline-block;
-  max-width: 98%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 3rem;
@@ -378,6 +378,22 @@ div.embed-container embed {
     width: 6px;
     height: 6px;
     margin: 0 4px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #gallery-carousel {
+    padding-left: 1rem;   
+    padding-right: 1rem;  
+    max-width: 100%;      
+    display: block;       
+  }
+}
+
+@media (max-width: 991.98px) {
+  #gallery-carousel .carousel-control-prev,
+  #gallery-carousel .carousel-control-next {
+    display: none;
   }
 }
 
