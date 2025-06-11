@@ -5,8 +5,7 @@ format:
     grid:
       body-width: 1800px
     toc: false
-execute:
-  echo: false
+    css: "portfolio/_style.css"
 listing:
   - id: portfolio
     template: portfolio/portfolio.ejs
