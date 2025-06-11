@@ -4,7 +4,7 @@
 
 .gallery-entry__img-container {
   border: 1px solid #cdd4da;
-  height: 185px;
+  height: 228px;
   overflow: hidden;
 }
 
@@ -89,5 +89,9 @@
   .card.gallery-entry .gallery-entry__body ul li {
     display: inline-block;
     margin: 0 10px;
+  }
+
+  .gallery-entry__img-container {
+    height: 189px;
   }
 }
