@@ -56,11 +56,25 @@
 }
 
 @media (max-width: 991.98px) {
+  /* centrar las tarjetas dentro del contenedor Quarto */
+  .quarto-listing-container-custom,
+  .quarto-listing {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card.gallery-entry {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
+    width: 90% !important;      /* ocupar 90% del contenedor */
+    max-width: 350px;           /* ancho máximo reducido */
+    margin: 0.5rem auto;        /* margen vertical uniforme */
   }
 
   .card.gallery-entry a > h5 {
@@ -68,6 +82,12 @@
     width: 100%;
     margin: 0.5rem 0;
     line-height: 1.2;
+    text-align: center;
+  }
+
+  /* ocultar icono de anchor en móvil para centrar texto */
+  .card.gallery-entry a > h5 .anchorjs-link {
+    display: none !important;
   }
 
   .card.gallery-entry .gallery-entry__body {
@@ -77,6 +97,7 @@
     justify-content: center;
     width: 100%;
     margin-top: 0.5rem;
+    text-align: center;
   }
 
   .card.gallery-entry .gallery-entry__body ul {
@@ -92,6 +113,6 @@
   }
 
   .gallery-entry__img-container {
-    height: 189px;
+    height: 168px;
   }
 }
